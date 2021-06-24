@@ -1,0 +1,55 @@
+.bg {
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+div {
+    display: block;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+footer {
+    min-height: 10rem;
+    padding: 3.5rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+footer>p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+footer .row>p {
+    margin-top: 7rem;
+}
+
+footer #social_links {
+    text-align: center;
+}
+
+footer #social_links a:hover i {
+    color: lightslategray;
+}
